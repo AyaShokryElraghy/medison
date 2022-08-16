@@ -1,0 +1,263 @@
+*
+{
+    font-family: 'cursive';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-title{
+    font-size: 26px !important;
+    color: #333;
+    font-weight: 700;
+}
+hr{
+    background-color: #00ccff;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto 20px;
+}
+.header-p{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: #333;
+    margin-bottom: 50px;
+}
+
+/* Start Navbar */
+.main-navbar-container{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.main-navbar-container a{
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    transition: all .4s;
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+.main-navbar-container .nav-item a:hover{
+    color: #18afd3;
+}
+/* End Navbar */
+
+/* Start Cover */
+.main-cover-container{
+    background-image: url("../../img/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 770px;
+    position: relative;
+}
+.main-cover-container .cover-background-color{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: .2;
+}
+.main-cover-container .caption-info{
+    color: white;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-25%, -50%);
+    z-index: 10;
+}
+.main-cover-container .caption-info h1{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.caption-info p{
+    font-size: 17px;
+    width: 80%;
+}
+.caption-info button{
+    background-color: #18afd3;
+    color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+/* End Cover */
+
+/* Atart About Us */
+.main-about-us-container{
+    padding: 50px 0;
+}
+.main-about-us-container img{
+    width: 100%;
+    height: 100%;
+}
+.main-about-us-container .doctor-details h4{
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.main-about-us-container .doctor-details p{
+    font-size: 17px;
+    color: rgb(72, 72, 72);
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.main-progress{
+    position: relative;
+    margin-bottom: 25px;
+}
+.main-progress .progress-title{
+    margin: 0 !important;
+    font-size: 14px !important;
+}
+.main-progress span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 15px;
+}
+.main-progress .progress{
+    height: 3px;
+}
+/* End About Us */
+
+/* Start Services */
+.main-services-container{
+    padding: 50px 0;
+    background-color: #fcfcfc;
+}
+.main-services-container .item{
+    position: relative;
+    margin-bottom: 25px;
+}
+.main-services-container .item .img-item-doctor{
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translate(0, -70%);
+}
+.main-services-container .item .img-item-doctor img{
+    width: 50px;
+    border-radius: 50%;
+}
+.main-services-container .item img{
+    width: 100%;
+}
+.main-services-container .item .item-details{
+    border: 1px solid #ccc;
+    padding: 15px;
+    transition: all .4s;
+}
+.main-services-container .item:hover .item-details{
+    background-color: #18afd3;
+}
+.main-services-container .item:hover .item-details h4{
+    color: white;
+}
+.main-services-container .item:hover .item-details p{
+    color: white;
+}
+.main-services-container .item .item-details h4{
+    font-size: 17px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.main-services-container .item .item-details p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    line-height: 28px;
+}
+/* End Services */
+
+/* Start Our Doctor */
+.main-our-doctor-container{
+    padding: 50px 0;
+}
+.our-img{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.main-our-doctor-container .our-doctor img{
+    width: 100%;
+    border-radius: 50%;
+}
+.our-details{
+    margin: 20px 0;
+}
+.our-details h4{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+}
+.our-details p{
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333;
+    margin: 0;
+}
+.our-doctor{
+    margin-bottom: 25px;
+}
+/* End Our Doctor */
+
+/* Start contact */
+.main-contact-container{
+    padding: 50px 0;
+    background-color: #fcfcfc;
+}
+.contact-item input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    padding: 10px;
+    height: 40px;
+    width: 40%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.email{
+    width: 83% !important;
+}
+textarea{
+    padding: 10px;
+    width: 83%;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.main-contact-container button{
+    display: block;
+    padding: 5px 20px;
+}
+.main-contact-container button:hover{
+    color: white;
+}
+/* End contact */
+
+/* Start Footer */
+.main-footer-container{
+    padding: 10px 0;
+    background-color: #23282f;
+    color: white;
+}
+.main-footer-container p{
+    margin: 0;
+    font-size: 14px;
+}
+/* End Footer */
